@@ -1,5 +1,6 @@
 package com.praveen.snoretrack.service
 
+import android.annotation.SuppressLint
 import android.app.Notification
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -109,6 +110,7 @@ class AudioRecorderService : Service() {
         startAudioLoop()
     }
 
+    @SuppressLint("MissingPermission")
     private fun startAudioLoop() {
         serviceScope.launch {
             try {
@@ -117,7 +119,7 @@ class AudioRecorderService : Service() {
                     AudioFormat.CHANNEL_IN_MONO,
                     AudioFormat.ENCODING_PCM_16BIT
                 )
-                
+
                 // Permission check should be done in Activity before starting service
                 // For safety, we wrap in try-catch
                 audioRecord = AudioRecord(

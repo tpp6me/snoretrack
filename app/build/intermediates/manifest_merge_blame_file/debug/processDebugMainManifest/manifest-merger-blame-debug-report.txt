@@ -1,0 +1,183 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.praveen.snoretrack"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+11-->/Users/praveen/work/github/snoretrack/app/src/main/AndroidManifest.xml:5:5-71
+11-->/Users/praveen/work/github/snoretrack/app/src/main/AndroidManifest.xml:5:22-68
+12    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+12-->/Users/praveen/work/github/snoretrack/app/src/main/AndroidManifest.xml:6:5-77
+12-->/Users/praveen/work/github/snoretrack/app/src/main/AndroidManifest.xml:6:22-74
+13    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
+13-->/Users/praveen/work/github/snoretrack/app/src/main/AndroidManifest.xml:7:5-88
+13-->/Users/praveen/work/github/snoretrack/app/src/main/AndroidManifest.xml:7:22-85
+14    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+14-->/Users/praveen/work/github/snoretrack/app/src/main/AndroidManifest.xml:8:5-77
+14-->/Users/praveen/work/github/snoretrack/app/src/main/AndroidManifest.xml:8:22-74
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->/Users/praveen/work/github/snoretrack/app/src/main/AndroidManifest.xml:9:5-68
+15-->/Users/praveen/work/github/snoretrack/app/src/main/AndroidManifest.xml:9:22-65
+16
+17    <permission
+17-->[androidx.core:core:1.12.0] /Users/praveen/.gradle/caches/8.13/transforms/c0c8184ce21aae6497a38866c507d051/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+18        android:name="com.praveen.snoretrack.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+18-->[androidx.core:core:1.12.0] /Users/praveen/.gradle/caches/8.13/transforms/c0c8184ce21aae6497a38866c507d051/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+19        android:protectionLevel="signature" />
+19-->[androidx.core:core:1.12.0] /Users/praveen/.gradle/caches/8.13/transforms/c0c8184ce21aae6497a38866c507d051/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+20
+21    <uses-permission android:name="com.praveen.snoretrack.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+21-->[androidx.core:core:1.12.0] /Users/praveen/.gradle/caches/8.13/transforms/c0c8184ce21aae6497a38866c507d051/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+21-->[androidx.core:core:1.12.0] /Users/praveen/.gradle/caches/8.13/transforms/c0c8184ce21aae6497a38866c507d051/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+22
+23    <application
+23-->/Users/praveen/work/github/snoretrack/app/src/main/AndroidManifest.xml:11:5-38:19
+24        android:name="com.praveen.snoretrack.SnoreApplication"
+24-->/Users/praveen/work/github/snoretrack/app/src/main/AndroidManifest.xml:12:9-41
+25        android:allowBackup="true"
+25-->/Users/praveen/work/github/snoretrack/app/src/main/AndroidManifest.xml:13:9-35
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.12.0] /Users/praveen/.gradle/caches/8.13/transforms/c0c8184ce21aae6497a38866c507d051/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+27        android:dataExtractionRules="@xml/data_extraction_rules"
+27-->/Users/praveen/work/github/snoretrack/app/src/main/AndroidManifest.xml:14:9-65
+28        android:debuggable="true"
+29        android:extractNativeLibs="false"
+30        android:fullBackupContent="@xml/backup_rules"
+30-->/Users/praveen/work/github/snoretrack/app/src/main/AndroidManifest.xml:15:9-54
+31        android:icon="@mipmap/ic_launcher"
+31-->/Users/praveen/work/github/snoretrack/app/src/main/AndroidManifest.xml:16:9-43
+32        android:label="@string/app_name"
+32-->/Users/praveen/work/github/snoretrack/app/src/main/AndroidManifest.xml:17:9-41
+33        android:roundIcon="@mipmap/ic_launcher_round"
+33-->/Users/praveen/work/github/snoretrack/app/src/main/AndroidManifest.xml:18:9-54
+34        android:supportsRtl="true"
+34-->/Users/praveen/work/github/snoretrack/app/src/main/AndroidManifest.xml:19:9-35
+35        android:testOnly="true"
+36        android:theme="@style/Theme.SnoreTrack" >
+36-->/Users/praveen/work/github/snoretrack/app/src/main/AndroidManifest.xml:20:9-48
+37        <activity
+37-->/Users/praveen/work/github/snoretrack/app/src/main/AndroidManifest.xml:22:9-31:20
+38            android:name="com.praveen.snoretrack.MainActivity"
+38-->/Users/praveen/work/github/snoretrack/app/src/main/AndroidManifest.xml:23:13-41
+39            android:exported="true"
+39-->/Users/praveen/work/github/snoretrack/app/src/main/AndroidManifest.xml:24:13-36
+40            android:theme="@style/Theme.SnoreTrack" >
+40-->/Users/praveen/work/github/snoretrack/app/src/main/AndroidManifest.xml:25:13-52
+41            <intent-filter>
+41-->/Users/praveen/work/github/snoretrack/app/src/main/AndroidManifest.xml:26:13-30:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->/Users/praveen/work/github/snoretrack/app/src/main/AndroidManifest.xml:27:17-69
+42-->/Users/praveen/work/github/snoretrack/app/src/main/AndroidManifest.xml:27:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->/Users/praveen/work/github/snoretrack/app/src/main/AndroidManifest.xml:29:17-77
+44-->/Users/praveen/work/github/snoretrack/app/src/main/AndroidManifest.xml:29:27-74
+45            </intent-filter>
+46        </activity>
+47
+48        <service
+48-->/Users/praveen/work/github/snoretrack/app/src/main/AndroidManifest.xml:33:9-37:58
+49            android:name="com.praveen.snoretrack.service.AudioRecorderService"
+49-->/Users/praveen/work/github/snoretrack/app/src/main/AndroidManifest.xml:34:13-57
+50            android:enabled="true"
+50-->/Users/praveen/work/github/snoretrack/app/src/main/AndroidManifest.xml:35:13-35
+51            android:exported="false"
+51-->/Users/praveen/work/github/snoretrack/app/src/main/AndroidManifest.xml:36:13-37
+52            android:foregroundServiceType="microphone" />
+52-->/Users/praveen/work/github/snoretrack/app/src/main/AndroidManifest.xml:37:13-55
+53
+54        <activity
+54-->[androidx.compose.ui:ui-tooling-android:1.5.1] /Users/praveen/.gradle/caches/8.13/transforms/00df6151aa70d16ab57319fbab080a45/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+55            android:name="androidx.compose.ui.tooling.PreviewActivity"
+55-->[androidx.compose.ui:ui-tooling-android:1.5.1] /Users/praveen/.gradle/caches/8.13/transforms/00df6151aa70d16ab57319fbab080a45/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+56            android:exported="true" />
+56-->[androidx.compose.ui:ui-tooling-android:1.5.1] /Users/praveen/.gradle/caches/8.13/transforms/00df6151aa70d16ab57319fbab080a45/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+57        <activity
+57-->[androidx.compose.ui:ui-test-manifest:1.5.1] /Users/praveen/.gradle/caches/8.13/transforms/7f212816ec6cf57355a3ceb1dcb29c04/transformed/ui-test-manifest-1.5.1/AndroidManifest.xml:23:9-25:39
+58            android:name="androidx.activity.ComponentActivity"
+58-->[androidx.compose.ui:ui-test-manifest:1.5.1] /Users/praveen/.gradle/caches/8.13/transforms/7f212816ec6cf57355a3ceb1dcb29c04/transformed/ui-test-manifest-1.5.1/AndroidManifest.xml:24:13-63
+59            android:exported="true" />
+59-->[androidx.compose.ui:ui-test-manifest:1.5.1] /Users/praveen/.gradle/caches/8.13/transforms/7f212816ec6cf57355a3ceb1dcb29c04/transformed/ui-test-manifest-1.5.1/AndroidManifest.xml:25:13-36
+60
+61        <provider
+61-->[androidx.emoji2:emoji2:1.4.0] /Users/praveen/.gradle/caches/8.13/transforms/8638273b0696cdf67f574df3dbbcb1d8/transformed/emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
+62            android:name="androidx.startup.InitializationProvider"
+62-->[androidx.emoji2:emoji2:1.4.0] /Users/praveen/.gradle/caches/8.13/transforms/8638273b0696cdf67f574df3dbbcb1d8/transformed/emoji2-1.4.0/AndroidManifest.xml:25:13-67
+63            android:authorities="com.praveen.snoretrack.androidx-startup"
+63-->[androidx.emoji2:emoji2:1.4.0] /Users/praveen/.gradle/caches/8.13/transforms/8638273b0696cdf67f574df3dbbcb1d8/transformed/emoji2-1.4.0/AndroidManifest.xml:26:13-68
+64            android:exported="false" >
+64-->[androidx.emoji2:emoji2:1.4.0] /Users/praveen/.gradle/caches/8.13/transforms/8638273b0696cdf67f574df3dbbcb1d8/transformed/emoji2-1.4.0/AndroidManifest.xml:27:13-37
+65            <meta-data
+65-->[androidx.emoji2:emoji2:1.4.0] /Users/praveen/.gradle/caches/8.13/transforms/8638273b0696cdf67f574df3dbbcb1d8/transformed/emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
+66                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+66-->[androidx.emoji2:emoji2:1.4.0] /Users/praveen/.gradle/caches/8.13/transforms/8638273b0696cdf67f574df3dbbcb1d8/transformed/emoji2-1.4.0/AndroidManifest.xml:30:17-75
+67                android:value="androidx.startup" />
+67-->[androidx.emoji2:emoji2:1.4.0] /Users/praveen/.gradle/caches/8.13/transforms/8638273b0696cdf67f574df3dbbcb1d8/transformed/emoji2-1.4.0/AndroidManifest.xml:31:17-49
+68            <meta-data
+68-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/praveen/.gradle/caches/8.13/transforms/d26b77ff7343f1fdbea279d3d2256ae3/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+69                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+69-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/praveen/.gradle/caches/8.13/transforms/d26b77ff7343f1fdbea279d3d2256ae3/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+70                android:value="androidx.startup" />
+70-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/praveen/.gradle/caches/8.13/transforms/d26b77ff7343f1fdbea279d3d2256ae3/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+71            <meta-data
+71-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/praveen/.gradle/caches/8.13/transforms/8c74469e1256559bf12449bf69f35622/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+72                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+72-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/praveen/.gradle/caches/8.13/transforms/8c74469e1256559bf12449bf69f35622/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+73                android:value="androidx.startup" />
+73-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/praveen/.gradle/caches/8.13/transforms/8c74469e1256559bf12449bf69f35622/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+74        </provider>
+75
+76        <service
+76-->[androidx.room:room-runtime:2.6.1] /Users/praveen/.gradle/caches/8.13/transforms/989d2174c17ec1c91339e6554f9e9cd9/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+77            android:name="androidx.room.MultiInstanceInvalidationService"
+77-->[androidx.room:room-runtime:2.6.1] /Users/praveen/.gradle/caches/8.13/transforms/989d2174c17ec1c91339e6554f9e9cd9/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+78            android:directBootAware="true"
+78-->[androidx.room:room-runtime:2.6.1] /Users/praveen/.gradle/caches/8.13/transforms/989d2174c17ec1c91339e6554f9e9cd9/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+79            android:exported="false" />
+79-->[androidx.room:room-runtime:2.6.1] /Users/praveen/.gradle/caches/8.13/transforms/989d2174c17ec1c91339e6554f9e9cd9/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+80
+81        <receiver
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/praveen/.gradle/caches/8.13/transforms/8c74469e1256559bf12449bf69f35622/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+82            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/praveen/.gradle/caches/8.13/transforms/8c74469e1256559bf12449bf69f35622/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+83            android:directBootAware="false"
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/praveen/.gradle/caches/8.13/transforms/8c74469e1256559bf12449bf69f35622/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+84            android:enabled="true"
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/praveen/.gradle/caches/8.13/transforms/8c74469e1256559bf12449bf69f35622/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+85            android:exported="true"
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/praveen/.gradle/caches/8.13/transforms/8c74469e1256559bf12449bf69f35622/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+86            android:permission="android.permission.DUMP" >
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/praveen/.gradle/caches/8.13/transforms/8c74469e1256559bf12449bf69f35622/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+87            <intent-filter>
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/praveen/.gradle/caches/8.13/transforms/8c74469e1256559bf12449bf69f35622/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+88                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/praveen/.gradle/caches/8.13/transforms/8c74469e1256559bf12449bf69f35622/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/praveen/.gradle/caches/8.13/transforms/8c74469e1256559bf12449bf69f35622/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+89            </intent-filter>
+90            <intent-filter>
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/praveen/.gradle/caches/8.13/transforms/8c74469e1256559bf12449bf69f35622/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+91                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/praveen/.gradle/caches/8.13/transforms/8c74469e1256559bf12449bf69f35622/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/praveen/.gradle/caches/8.13/transforms/8c74469e1256559bf12449bf69f35622/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+92            </intent-filter>
+93            <intent-filter>
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/praveen/.gradle/caches/8.13/transforms/8c74469e1256559bf12449bf69f35622/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+94                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/praveen/.gradle/caches/8.13/transforms/8c74469e1256559bf12449bf69f35622/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/praveen/.gradle/caches/8.13/transforms/8c74469e1256559bf12449bf69f35622/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+95            </intent-filter>
+96            <intent-filter>
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/praveen/.gradle/caches/8.13/transforms/8c74469e1256559bf12449bf69f35622/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+97                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/praveen/.gradle/caches/8.13/transforms/8c74469e1256559bf12449bf69f35622/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/praveen/.gradle/caches/8.13/transforms/8c74469e1256559bf12449bf69f35622/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+98            </intent-filter>
+99        </receiver>
+100    </application>
+101
+102</manifest>
